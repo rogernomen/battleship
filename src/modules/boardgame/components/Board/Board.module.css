@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.retryButton {
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    min-height: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.board {
+    position: relative;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.gameover {
+    position: absolute;
+}
